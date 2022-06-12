@@ -1,7 +1,11 @@
 package blackjack.domain
 
 object BlackJackGame {
-    fun start(players: List<String>): Players {
-        return Players(players.map { name -> Player(name) })
+    fun start(playerNames: List<String>): Players {
+        return Players(
+            playerNames.map { name ->
+                Player(name, Dealer.giveCards(2))
+            }
+        )
     }
 }

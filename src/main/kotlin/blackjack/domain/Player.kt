@@ -1,5 +1,8 @@
 package blackjack.domain
 
-data class Player (
-    val name: String
+import blackjack.domain.Cards
+
+data class Player(
+    val name: String,
+    val cards: Cards
 )
