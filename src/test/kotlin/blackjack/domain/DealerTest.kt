@@ -1,5 +1,6 @@
 package blackjack.domain
 
+import blackjack.domain.dealer.Dealer
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotEquals
 import org.junit.jupiter.api.Test

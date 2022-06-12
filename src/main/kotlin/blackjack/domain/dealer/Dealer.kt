@@ -1,7 +1,7 @@
-package blackjack.domain
+package blackjack.domain.dealer
 
-import blackjack.domain.Card
-import blackjack.domain.Cards
+import blackjack.domain.card.Card
+import blackjack.domain.card.Cards
 
 object Dealer {
     fun giveCards(numOfCard: Int): Cards {
